@@ -1,0 +1,93 @@
+//Html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Login To Your Account</h1>
+    <!-- Login details -->
+    <div>
+      <form action="" method="">
+        <input type="email" name="email" placeholder="Email" class="inputs" />
+        <br />
+        <br />
+        <input
+          type="password"
+          name="password"
+          class="inputs"
+          placeholder="Password"
+        />
+        <br />
+        <br />
+        <br />
+        <button type="submit" class="btn">Sign in</button>
+      </form>
+    </div>
+    <h4>OR</h4>
+    <p>Sign in With</p>
+    <div>
+      <!-- Facebook image -->
+      <a href="https://www.facebook.com/login/ " target="_blank">
+        <img src="fb logo.png" alt="Facebook" />
+      </a>
+      <!-- Google login -->
+      <a
+        href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%3Fhl%3Den-US&ec=GAlA8wE&hl=en&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-989729652%3A1694806661641358&theme=glif"
+        target="_blank"
+      >
+        <img src="googlelogo.png" alt="" />
+      </a>
+    </div>
+    <!-- New user -->
+    <div class="newuser">
+      <br />
+      <h3>New Here?</h3>
+      <p>Sign up and discover a great amount of new opportunities</p>
+      <button type="submit" class="btn" style="background-color: peachpuff">
+        Sign Up
+      </button>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+//CSS
+body {
+  color: rgb(37, 30, 37);
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    to top,
+    #ee4e34 0%,
+    #ee4e34 30%,
+    #fcedda 30%,
+    #fcedda 100%
+  );
+  text-align: center;
+  font-size: 20px;
+}
+.inputs {
+  background-color: lightcyan;
+  border-radius: 20px;
+  border-color: lightgrey;
+  width: 300px;
+  height: 30px;
+}
+.btn {
+  width: 150px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: lightcoral;
+}
+.newuser {
+  color: rgb(37, 30, 37);
+  font-weight: bold;
+}
